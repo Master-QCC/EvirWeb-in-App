@@ -1,0 +1,28 @@
+// Different backgrounds can be set, and the font color corresponds to different customers
+//解放
+@mixin mainTextColor {
+  color: #393C43;
+}
+
+@mixin subTextColor {
+  color: #686B70;
+}
+
+@mixin itemStyle {
+  background: linear-gradient(360deg, #F9F9F9 0%, #DEE1E7 100%);
+  border: 2px solid;
+  border-image: linear-gradient(180deg, rgba(241, 242, 244, 1), rgba(230, 232, 235, 1)) 2 2;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+@mixin buttonStyle {
+  width: 100%;
+  padding: 1rem 0;
+  color: white;
+  text-align: center;
+  background: linear-gradient(135deg, #3771FF 0%, #003DE3 100%);
+  box-shadow: 0px 10px 10px -5px rgba(0, 61, 227, 0.8);
+  border-radius: 1.5rem;
+}
+

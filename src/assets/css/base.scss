@@ -1,0 +1,89 @@
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0
+}
+
+div,a,img,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,hgroup,p,blockquote,figure,form,fieldset,input,legend,pre,abbr,button {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+a {
+  color: unset;
+}
+
+pre,code,address,caption,th,figcaption {
+  font-size: 1em;
+  font-weight: normal;
+  font-style: normal
+}
+
+.img {
+  width: 100%;
+}
+
+input, textarea {
+  font-size: 1rem;
+}
+
+fieldset,iframe {
+  border: 0
+}
+
+caption,th {
+  text-align: left
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: .875rem;
+}
+
+table tr td {
+  padding: 1rem 0;
+  border-bottom: 1px solid #ccc;
+}
+
+main,summary,details {
+  display: block
+}
+
+audio,canvas,video,progress {
+  vertical-align: baseline
+}
+
+button {
+  background: none;
+  border: 0;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  line-height: inherit;
+  overflow: visible;
+  vertical-align: inherit
+}
+
+button:disabled {
+  cursor: default
+}
+
+:focus {
+  outline: 4px solid rgba(0,125,250,0.6);
+  outline-offset: 1px
+}
